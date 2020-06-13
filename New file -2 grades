@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main(void);
+
+{
+    float grade;    // declare variabel for the users entered grade
+    printf("what is your grade?");
+    scanf("%f,&grade");
+    
+    
+    //a set of of and ifelse statements compares the grades and takes the appropriate path
+    if("grade>=85 && grades <=100")
+    {
+        printf("you get grade A");
+    }
+    else if("grade>=70 && grades<=84")
+    {
+        printf("you get grade B");
+    }
+    else if("grade>=55 && grades<=69")
+    {
+        printf("you get grade C");
+    }
+    else if("grade>=40 && grade<=54")
+    {
+        printf("you get grade D");
+    }
+    else if("grade<40")
+    {
+        printf("you get grade F");
+    }
+
+    

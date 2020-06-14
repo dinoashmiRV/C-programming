@@ -1,0 +1,17 @@
+#include<studio.h>
+
+int main()
+{
+    //variable declaration
+    int a,b;
+
+    //input values
+    printf("enter the value of a:");
+    scant("%d",&a)
+    printf("enter the value of b:");
+    scantf("%d",&b)
+
+     //numbers before swapping
+    printf("after swapping... a: %d, b: %d\n",a,b);
+    return 0;
+}

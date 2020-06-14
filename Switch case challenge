@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+void main()
+{
+int a
+Printf("please enter a number between 1 and 5")
+scanf("%d",&a);
+
+switch(a)
+{
+case:1;
+printf("food item:pasta'/n'Rs-239")
+break;
+
+case:2;
+printf("food item:burger'/n'Rs-149")
+break;
+
+case:3
+printf("food item:pizza'/n'rs-210")
+break;
+
+case:4
+printf("food item:French fries'/n'rs-99")
+break;
+
+case:5
+print("food item: sandwich'/n'Rs-139")
+break;
+
+default
+print("invalid choice. Enter a number between 1 and 5")
+}
+
+}

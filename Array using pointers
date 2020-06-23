@@ -1,0 +1,35 @@
+#include<studio.h>
+main()
+{
+   int mat[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+   int *p=&mat[0][0]
+   int i;
+   //clrser();
+ for(i=0;i<4;i++)
+{
+    for(j=0;j<4;j++)
+  {
+       scant("%d",&mat[i][j]);
+  }
+}
+  for(i=0;i<4;i++)
+ {
+   for(j=0;j<4;j++)
+    {
+      printf("%d",mat[i][j],*(p+i),*(p+j));
+     }
+}
+ // to add the diagonal elements
+    for(i=0;i<4;i++)
+{
+      for(j=0;j<4,j++)
+     {
+        if( i==j)
+       {
+         sum= Sum+mat[i][j];
+        }
+     }
+}
+
+  printf ("the sum of diagonal elements of a square matrix=%d\n",sum)
+}
